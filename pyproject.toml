@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package_name"
+keywords = ["AA", "BB", "CC", "DD"]
+dynamic = ["version"]
+authors = [{ name = "author", email = "author@email.com" }]
+description = "A description."
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+dependencies = ["XXX==X.X.X", "XXX==X.X.X", "XXX==X.X.X"]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.packages]
+find = { where = ["./src"] } 
