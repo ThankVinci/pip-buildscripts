@@ -18,3 +18,7 @@ dev = []
 
 [tool.setuptools.packages]
 find = { where = ["./src"] } 
+
+[project.urls]
+Homepage = "https://xxxxxx"
+Repository = "https://xxxxxx"
